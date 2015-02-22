@@ -1,0 +1,1048 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"
+	version="2.0">
+	<channel>
+		<title>Puppetlabs Podcasts</title>
+		<link>http://puppetlabs.com/resources/podcasts</link>
+		<description>All Puppet Labs podcasts</description>
+		<atom:link href="http://puppetlabs.com/resources/podcasts"
+			rel="self" />
+		<docs>http://www.rssboard.org/rss-specification</docs>
+		<generator>python-feedgen</generator>
+		<image>
+			<url>http://puppetlabs.com/sites/default/files/puppet-labs-podcast-icon.png</url>
+			<title>Puppetlabs Podcasts</title>
+			<link>http://puppetlabs.com/resources/podcasts</link>
+		</image>
+		<language>en</language>
+		<lastBuildDate>Sat, 21 Feb 2015 23:35:52 +0000</lastBuildDate>
+		<itunes:category text="Technology">
+			<itunes:category text="Podcasting" />
+		</itunes:category>
+		<item>
+			<title>Podcast: Puppetboard | Puppet Labs</title>
+			<description>We would like to use our podcasts to showcase more cool,
+				new projects from the community, so last week Hunter Haugen and Dawn
+				Foster talked to Daniele Sluijters (a.k.a. "daenney") about his
+				newly released Puppetboard project.
+				Just last week, Daniele announced Puppetboard on the puppet-users list,
+				humbly beginning,  "it’s a lovely grey and rainy day here in the
+				Dutch summer, as good a day as any to release a new little project."
+				Puppetboard is a web interface to PuppetDB aiming to replace the
+				reporting functionality of Puppet Dashboard. Currently, Puppetboard
+				can show you all the info that PuppetDB can show you: a list of
+				nodes and all known facts for each node in your infrastructure. You
+				can drill down into them by fact, node, and run reports.
+				This is so new that it comes with some significant caveats and some of
+				the code is experimental, so contributions and bug reports are
+				welcome!
+				Daniele will be at PuppetConf starting on Wednesday at Developer Day. Track
+				him down at the conference to learn more about Puppetboard.
+				See the rest of the podcasts.
+
+
+				Attend PuppetConf, our annual operations conference at the Fairmont in San
+				Francisco on August 22 and 23, and come a day early for Developer
+				Day!
+				Find a local Puppet User Group or start one in your city
+				Visit our community Ask site to get answers and advice for using Puppet.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-puppetboard</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode019-2013-08-13-PuppetBoard.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Puppet</title>
+			<description>Florian Haas, CEO, Principal Consultant from Hastexo
+				joined Chris Hoge, OpenStack Developer for Puppet Labs, and Dawn
+				Foster, Community Lead at Puppet Labs for a discussion during OSCON
+				on the love affair between OpenStack and Puppet.
+				"The reason why we find Puppet particularly interesting and appealing,"
+				says Florian, "is that when we look at all these tools, Puppet has a
+				massive mindshare ... there's some very interesting work that has
+				been done there."
+				At Puppet Labs we've been maintaining a set of modules that allow you
+				to deploy a whole OpenStack system with Puppet, but it's part of a
+				much larger body of contributors. The modules are a community
+				effort, developed under the OpenStack StackForge community.
+				The OpenStack Tour de Force tutorial during OSCON used these modules as
+				part of KickStack. KickStack is a custom deployment wrapper built on
+				the Puppet Labs OpenStack modules, which enables installation of an
+				Openstack cloud in as little as 20 minutes
+				Looking to get some more OpenStack and Puppet goodness?  Florian Haas from
+				Hastexo is holding a class on deploying OpenStack with Puppet in
+				Portland. Register now to attend Puppet Cloud Jumpstart for
+				OpenStack.
+				At Developer Day, the day before PuppetConf, we'll devote one of the
+				many hacker tables to OpenStack. During PuppetConf  there are more
+				OpenStack talks than I can list here.  See you then!
+				Attend PuppetConf, our annual operations conference at the Fairmont in San
+				Francisco on August 22 and 23, and come a day early for Developer
+				Day!
+				Find a local Solutions: Puppet and OpenStack
+				Blog Post: Puppet OpenStack modules 2.0 released to ForgePuppet User
+				Group
+				Find a local Puppet User Group or start one in your city
+				Visit our community Ask site to get answers and advice for using Puppet.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-puppet-heart-openstack</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode018-2013-08-08-OpenStack.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Are You Testing Your Puppet Modules? | Puppet Labs</title>
+			<description>In this week's Puppet Podcast, I'm joined by Ryan
+				Coleman, product manager for the Puppet Forge, and module
+				engineering team members Ashley Penney and Hunter Haugen. They dive
+				into an exploration of the module testing frameworks the Puppet
+				Forge team uses.
+				What happens when you submit a patch to a module maintained by Puppet
+				Labs? Why bother testing your Puppet modules at all?
+				Learn the answers to these questions, as well as the value of unit
+				testing a module with rspec-puppet and integration testing with
+				rspec-system, the tools available to make sure your manifests pass a
+				syntax test, and how to take advantage of real-world data from
+				Facter during testing.
+				Listen to the Puppet Forge team pretend for your benefit that they are bad
+				at their jobs, and don't believe a word of it!
+				See the rest of the podcasts.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-are-you-testing-your-puppet-modules</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode020-2013-09-10-Module-Testing.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Ben Kero Tells Us "How to Use Puppet Like an Adult" |
+				Puppet Labs</title>
+			<description>We've been dusting off some audio from OSCON in July,
+				and we found this gem for your listening pleasure.
+				Kent Bye, videographer &amp; media maven at Puppet Labs, took some time
+				out of his busy schedule at OSCON to interview Ben Kero, senior
+				sysadmin at Mozilla. They spent some time talking about how Ben and
+				the rest of the ops team there use Puppet.
+				Ben also talked about his session at OSCON, "How to Use Puppet Like an
+				Adult," which he co-presented with fellow Mozillian, Daniel Maher.
+				If you missed their talk, you can still have a look through their
+				slides.
+				A huge thanks to Ben and Kent for doing this, and we hope you enjoy
+				the podcast!
+				See the rest of the podcasts.
+				Find a local Puppet User Group or start one in your city
+				Visit our community Ask site to get answers and advice for using Puppet
+				How to use Puppet like an adult
+				Read about featured community member Dustin Mitchell from Mozilla</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-ben-kero-tells-us-how-use-puppet-adult</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode021-2013-10-09-Mozilla-Puppet-Best-Practices.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Using MCollective for Orchestration | Puppet Labs</title>
+			<description>We recently sat down with Devon Peters, a tools engineer
+				at Jive Software to talk about how they use MCollective for
+				orchestration along with Puppet to manage their infrastructure. You
+				might remember Devon from his recent PuppetConf talk, "Intro to
+				Systems Orchestration with MCollective." We were joined by Pieter
+				Loubser and Richard Clamp from the MCollective engineering team here
+				at Puppet Labs to talk about a wide variety of orchestration topics.
+				This was a fun podcast because we talked about some of the
+				performance problems Jive Software has faced in the past, along with
+				how the team here at Puppet Labs is working closely with Jive
+				Software to improve MCollective performance, which will benefit a
+				lot of other companies as well. We also talked about the future of
+				MCollective and other things we are doing to improve the product.
+				If you are curious and want to learn more, you can check out our new
+				and improved MCollective documentation or watch Devon's PuppetConf
+				talk, "Intro to Systems Orchestration with MCollective."  You can
+				also join us in the community on the MCollective-Users Group or in
+				the #mcollective IRC channel on Freenode to ask questions or just
+				learn more about how people are using MCollective.
+				See the rest of the podcasts.
+				Learn More
+				Find a local Puppet User Group or start one in your city
+				Visit our community Ask site to get answers and advice for using Puppet
+				PuppetConf talk:  Intro to Systems Orchestration with MCollective
+				Talk to us on the MCollective-Users Group or in the #mcollective IRC
+				channel on Freenode
+				Read the new and improved MCollective documentation</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-using-mcollective</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode022-2013-10-15-Using-MCollective.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: The New Pro Puppet | Puppet Labs</title>
+			<description>This week on the Puppet Podcast, authors William Van
+				Hevelingen and Spencer Krum join Puppet Community team Dawn Foster
+				and Kara Sowles to give us some insight into the upcoming new
+				edition of the book Pro Puppet. The third author, Mozilla sysadmin
+				Ben Kero, wasn't able to join us.
+				The first three chapters of the new Pro Puppet will be focused on
+				anyone setting up Puppet for the first time. The rest of the book
+				goes deeper, including how to run Puppet without a master, how to
+				get your workflow down, an updated section on the MCollective
+				orchestration engine, and an entire chapter dedicated to Hiera.
+
+
+				The original Pro Puppet was written by James Turnbull and Jeff McCune
+				and published by Apress in 2011, so it was overdue for an update.
+				Listen to how Spencer, William, and Ben ended up writing the book -
+				involving a piece of misplaced spam mail - and what book is coming
+				up next.
+				The new Pro Puppet will be available Nov. 20th on Amazon.com, and you
+				can pre-order your copy now!
+				 </description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-new-pro-puppet</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode022-2013-10-30-Pro-Puppet-Book.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Google Compute Engine and Puppet | Puppet Labs</title>
+			<description>In the latest Puppet Podcast, Puppet Community Lead Dawn
+				Foster is joined by Eric Johnson, program manager of the Google
+				Compute Engine team and Aaron Armstrong, an engineering manager at
+				Puppet Labs.
+				Last Tuesday, Google announced that its Google Compute Engine is now
+				generally available to the public. Listen in to this podcast to hear
+				Eric, Aaron and Dawn discuss and explore the integrations between
+				Google Cloud Platform and Puppet.
+				GCP is a collection of services created using Google's experience
+				scaling and supporting their own services: platform-as-a-service and
+				infrastructure-as-a-service options, storage solutions and a range
+				of other services and developer tools.
+				In Puppet Enterprise 3.1, we updated our cloud provisioner to work
+				natively with Google Compute Engine, and there's now a node type for
+				GCE. Watch the video below to see how you can spin up and interact
+				with Google Compute instances directly from the command line.
+				Google is also committed to helping make sure that its Puppet modules are
+				kept up to date to take advantage of the full power of GCE. Eric
+				says,
+				"Google is committed to providing support for Puppet users. So we'll be
+				contributing support for both GCE_Compute and Node_GCE to ensure
+				that it's updated to take advantage of the latest features that GCE
+				is releasing."
+				Eric helped to update the GCE compute module, which offers Puppet users
+				the opportunity to integrate GCE and Puppet. You can create
+				additional persistent disks, networks and firewall rules, and set up
+				a load balancer. Aaron notes that employees within Puppet Labs are
+				particularly excited at how fast it is to provision new nodes on
+				GCE, as well as the more granular, per-minute billing that's
+				available after the first 10 minutes.
+				See the rest of the podcasts.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-google-compute-engine-and-puppet</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode024-2013-12-03-Google-Compute-Engine-and-Puppet.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: DevOps &amp; Cloud Automation at Puppet Labs | Puppet
+				Labs</title>
+			<description>In the latest Puppet Podcast, Community team member Kara
+				Sowles is joined by long-time Puppet developer Jeff McCune along
+				with Cody Herriges and Matt Kirby from the technical operations
+				Team.
+				The engineering staff at Puppet Labs has been growing quickly, which
+				has meant that a lot of development and testing infrastructure has
+				had to adapt and change. It used to be feasible to have each
+				developer test Puppet on either their own laptop or within a single
+				testing infrastructure. But with Puppet supporting more and more
+				operating systems, including AIX and Windows, it's no longer
+				feasible for all the tests to happen locally. Having one QA
+				environment that any developer can render useless also doesn't work
+				too well at scale.
+				So in this podcast, we explore how the development and operations
+				teams at Puppet Labs are collaborating on a project to create more
+				isolated virtual and physical test environments for each developer.
+				This is enabling developers to be a bit more experimental and free
+				to break things in their environment without worrying about slowing
+				anyone else down.
+				They're also coming up with a solution to eliminate all the time-consuming
+				steps needed to get that space by creating a variety of self-service
+				interfaces to different parts of their infrastructure.
+				Their goal is to give new developers the ability to write a patch to
+				Puppet code on their first day of work, then run it through their
+				own QA environment that's optimized for continuous delivery. Jeff
+				talks about how he able to interact with VMware's vSphere API using
+				a combination of fog and the rbvmomi Ruby library.
+				Jeff, Cody and Matt also talk about the some of their work building out
+				software-defined infrastructure with a network virtualization layer.
+				Tools like Razor, a bare-metal provisioning tool, are sometimes
+				difficult to consistently test within the context of a laptop
+				environment, and are much better tested within the VMware
+				infrastructure maintained by operations. Some other challenges with
+				Razor include changing the behavior of DHCP or PXE boot yourself
+				while not interfering with other production environments or the
+				primary wireless network. The group talks about implementing
+				OpenStack's Neutron networking interface (formerly quantum) and
+				VMware's NSX network in order to achieve this.
+				Cody also talks about some specific considerations building an automated
+				cloud infrastructure with dynamic storage capabilities. Specific
+				considerations include creating a distributed storage architecture
+				that eliminates the possibility of single-points of failure taking
+				out the entire storage infrastructure for other virtual machines.
+				There are also different optimizations for handling different heavy
+				read vs. heavy write workloads, as well as hosting it within a
+				private cloud or public cloud.
+				One specific challenge involves gathering enough metrics to know both
+				how to grow and when to expand capacity. Some of the tools being
+				explored include setting up a Ceilometer infrastructure to collect
+				measurements within OpenStack environments.
+				Finally, the group talks about the process of designing and architecting a
+				boundless infrastructure that is architected for scalability,
+				reliability and elasticity; abstracted enough to plug in new
+				capabilities in the future, yet stable enough that the ops team can
+				sleep through the night.
+				You can also check out our many other recent podcasts by visiting our
+				podcast page or subscribing in your favorite podcast tool.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-devops-cloud-automation-puppet-labs</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode023-2013-11-06-Puppet-Labs-Tools-and-Process.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Project Management and DevOps | Puppet Labs</title>
+			<description>In this episode of the Puppet Labs Podcast, I was joined
+				by Kenn Hussey, Michelle Johansen and Heidi Pio to talk about how
+				project managers help bridge the gap between developers and
+				operations.
+				For example, our recent migration from Redmine to JIRA has required
+				extensive collaboration between our developers and our operations
+				teams across many months to make sure that we could complete the
+				migration without disrupting work on our products.
+				We also have quite a few cross-functional teams between engineering
+				and operations,  pulled together to handle issues with developer
+				infrastructure, security concerns and much more on an ad hoc basis.
+				The Puppet Forge engineering team has a representative from our
+				operations team who attends its meetings. Across all of our
+				projects, we try to get operations involved at the very beginning of
+				each project.
+				For much more about project management and DevOps, please have a
+				listen! You can also check our many other recent podcasts by
+				visiting our podcast page or subscribing in your favorite podcast
+				tool.
+				If all of this sounds interesting and you want to join us, we are also
+				hiring two new project managers, an Engineering Project Manager and
+				a Technical Operations Project Manager. Come work with us, we have
+				whiskey.
+				Learn More
+				Listen to our other podcasts.
+				Join the Puppet Community.
+				Follow our DevOps December content</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-project-management-and-devops</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode025-2013-12-17-Project-Management-and-DevOps.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Module Best Practices with Gareth Rushgrove | Puppet Labs</title>
+			<description>In this episode of the Puppet Labs Podcast, I was joined
+				by Gareth Rushgrove, who works for the UK Government and is the
+				person responsible for the DevOps Weekly Newsletter. He goes by
+				garethr on the Puppet Forge. I was also joined by Ryan Coleman,
+				product owner for the Forge at Puppet Labs.
+				We talked about quite a few module best practices, with a focus on
+				reusability of modules.  One important thing to keep in mind when
+				designing reusable modules is how you abstract the data associated
+				with modules and how you design the entry points for others. Using
+				other people's modules as dependencies is another way to improve
+				reusability, but you also need to make sure that your dependencies
+				are solid, reliable modules.
+				One of the most important aspects of module development is testing.
+				Gareth and Ryan both talked about various ways to test your modules
+				to improve reliability and check for unintended consequences when
+				you make change to your module. Rspec-puppet is one good option for
+				testing your modules if you are just getting started.
+				To learn more about module best practices and reliability, you will
+				need to listen to the podcast! You can also check our many other
+				recent podcasts by visiting our podcast page or subscribing in your
+				favorite podcast tool.
+				Listen to our other podcasts.
+				Join the Puppet Community.
+				Watch Gareth's PuppetConf talk about Module Reusability or other great
+				PuppetConf module talks.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/module-best-practices-gareth-rushgrove</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode027-2014-01-02-Module-Reusability.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Puppet Learning and Certification | Puppet Labs</title>
+			<description>In this episode of the Puppet Labs Podcast, I was joined
+				by Greg Larkin, who talked to us about his experience preparing for
+				and taking the Puppet Professional certification exam. I was also
+				joined by two people from the Puppet Labs education team: Jamie
+				Rosa, who runs our certification program, and Brad Hamilton, who
+				recently launched the Puppet Workshop, our new online learning
+				portal.
+				We started by talking about our various certification exams, which are
+				available at testing centers around the world. Greg became certified
+				shortly after PuppetConf, and while he thinks that the best
+				preparation is real-world Puppet implementation experience, he read
+				a lot of documentation to help prepare for the exam. He also spent a
+				lot of time answering questions on Ask.PuppetLabs.com — a great way
+				to prepare for certification! Jamie also recommends reading the exam
+				objectives and taking the practice exams, linked from the
+				certification page.
+				We recently launched the Puppet Workshop, where you can find free,
+				online courses on many different topics. Each course takes about 20
+				minutes to complete, and includes an instructional video, exercises
+				and a quiz to test your knowledge. Right now, we have courses on a
+				wide variety of topics about Puppet, PuppetDB, Hiera, modules, roles
+				&amp; profiles, plus so much more. We are also adding new courses on
+				a regular basis, so we'll have even more courses in the next few
+				months.
+				To get more information about our learning and certification programs,
+				you should listen to the podcast! You can also check our many other
+				recent podcasts by visiting our podcast page or subscribing in your
+				favorite podcast tool.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-puppet-learning-and-certification</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode026-2013-12-18-Puppet-Certification.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Puppet at GitHub | Puppet Labs</title>
+			<description>In this podcast, Kent Bye and I talked with James Fryman
+				and Will Farrington about the many ways that GitHub is using Puppet.
+				We talked for quite a while about the creative ways that GitHub is
+				using Boxen and Puppet to manage developer system configuration. I
+				always think of Boxen as an easy way to quickly provision systems
+				for new employees, but GitHub is doing some creative things with
+				Hiera that makes it easy for people to maintain changes to their own
+				configurations. It also helps to quickly roll out changes to
+				everyone at the same time, like upgrades to a new version of Ruby,
+				for example.
+				Because it's been a hot topic recently, we also talked about the recent DNS
+				outage at GitHub. They gave us a few more details about what
+				happened, and what they are doing with Puppet and their own testing
+				processes to avoid similar issues in the future.
+				I won't ruin it by telling you too much more, so listen to the
+				podcast to hear the rest! You can also check out our many other
+				recent podcasts by visiting our podcast page or subscribing in your
+				favorite podcast tool.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-puppet-github</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode028-2014-02-04-Puppet-at-GitHub.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: How To (and How Not To) Apply for a Tech Job | Puppet
+				Labs</title>
+			<description>Applying for a tech job? In the latest Puppet Podcast,
+				we chat with Mike Stahnke, director of software delivery at Puppet
+				Labs, and Deepak Giridharagopal, our director of engineering. Mike
+				and Deepak certainly aren't short on work, yet they regularly take
+				the time to review resumes for people who apply for positions in
+				their departments. As technical managers who are also hiring
+				managers, Mike and Deepak provided an interesting perspective for
+				those currently applying to tech jobs.
+				Hear tips for making your application stand out, extreme resume no-nos,
+				and reflections on hiring from two of Puppet Labs' technical
+				directors.
+				You can also check our many other recent podcasts by visiting our
+				podcast page or subscribing in your favorite podcast tool.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-how-and-how-not-apply-tech-job</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode029-2014-02-14-How-to-apply-for-a-tech-job.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Bare Metal Provisioning with Razor | Puppet Labs</title>
+			<description>Razor developers David Lutterkort and Scott McClellan
+				talk about what Razor is, and how it compares to other provisioning
+				tools. Razor does just the right amount of work to get an operating
+				system installed onto a bare-metal machine so it can be further
+				configured and managed by Puppet Enterprise.
+				Razor has been rewritten from the ground up. David and Scott talk about
+				the new features, as well as how it's being offered as a tech
+				preview within Puppet Enterprise 3.2.
+				You can participate in Razor and join the discussions in the #razor IRC
+				channel and the Razor Google group.
+				Listen in to learn about Razor’s new capabilities, and how you can provide
+				feedback as you try it out. You can also check out our many other
+				recent podcasts by visiting our podcast page or subscribing in your
+				favorite podcast tool.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-bare-metal-provisioning-razor</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode030-2014-03-06-Razor-in-Puppet-Enterprise-32.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: The Puppet Language Evolves | Puppet Labs</title>
+			<description>I recently had the opportunity to sit down with Andy
+				Parker and Henrik Lindberg to talk about some of the many upcoming
+				changes to the Puppet language, which is our configuration language
+				used to define resources (and more). We were joined by videographer
+				Kent Bye, who also jumped in with a few of his own questions
+				throughout the podcast.
+
+
+
+				We talked about a wide range of language topics, but we spent a little
+				more time on a few of the more interesting upcoming changes. Andy's
+				favorite improvement to the language is our new and vastly improved
+				error reporting, now with error messages that actually help you
+				figure out what went wrong! We also talked a lot about the new type
+				system, which is something Henrik is pretty excited about. Support
+				for templates and Heredoc are among the many other topics we
+				discussed, so listen to the podcast and get all the details!
+				If you are as excited about these upcoming language features as Andy
+				and Henrik, you can enable our experimental Future Parser and try
+				them out now. If you aren't quite ready yet, you can still browse
+				the Future Parser documentation to see what we are adding and how it
+				will be used. You can also keep track of our progress and upcoming
+				work by following the tickets filed under the DSL component in JIRA.
+				Interested in joining the discussions about the future of the Puppet
+				Language, or other development topics? You'll find those on the
+				puppet-dev mailing list.
+				If you enjoy this podcast about the Puppet language, you should check
+				out our podcast page for more great discussions, or subscribe in
+				your favorite podcast tool.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-puppet-language</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode031-2014-03-18-Puppet-Language.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast on Beaker: The cloud-enabled, acceptance testing tool
+				| Puppet Labs</title>
+			<description>Have you heard of Beaker yet? Beaker is a testing tool
+				developed and used here at Puppet Labs. In this podcast, Puppet Labs
+				QA toolsmith Alice Nodelman, community member Richard Pijnenburg,
+				and Puppet Labs module engineer Hunter Haugen join videographer Kent
+				Bye and community initiatives manager Kara Sowles to talk about what
+				Beaker does and how you can benefit from it.
+				Beaker is an acceptance-level testing tool that provisions a set of nodes
+				to test on. Here at Puppet Labs, we can test Puppet on it, and we're
+				also adopting it for automated module testing. Beaker can be used
+				not only as an acceptance testing tool, but also as a cloud
+				provisioner.
+				Listen in to learn about the problems Beaker addresses, how to better
+				automate your testing, how we're using Beaker internally at Puppet
+				Labs, and what's next for the tool. Richard chimes in with his use
+				of Beaker, what tools he's used to decrease his test time from
+				5-plus hours to 45 minutes, and more details about his testing
+				suite.
+				You can check out our other recent podcasts by visiting our podcast
+				page or subscribing in your favorite podcast tool!</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-beaker-cloud-enabled-acceptance-testing-tool</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode032-2014-04-10-Integrated-System-Testing-With-Beaker.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Insights from the Monitorama Conference | Puppet Labs</title>
+			<description>If you missed the recent Monitorama conference in
+				Portland, highlighting the latest data monitoring technology, we’ve
+				got you covered. Listen to Puppet Labs technical operations
+				engineers Cody Herriges and Zach Leslie, technical operations
+				project manager Derek Austin, community manager Kara Sowles and
+				videographer Kent Bye discussing the conference in our most recent
+				podcast.
+				You can learn about the tools our employees find most useful for
+				monitoring; areas they’d like to see fleshed out at next year's
+				Monitorama; challenges for the data monitoring sector; and their
+				favorite talks (Hint: math and frequencies are involved.). We’re
+				sure you’ll find the information stimulating and useful.
+				Meg Hartley is community coordinator at Puppet Labs.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-insights-monitorama-conference</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode034-2014-05-21-Monitorama.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast:Provisioning Hadoop Clusters With Cloudera Manager and
+				Puppet | Puppet Labs</title>
+			<description>Cloudera fans, rejoice! In this week’s Puppet podcast,
+				Kent Bye and I talked to Mike Arnold, author of the
+				Cloudera-certified CDH module, now available on the Puppet Forge.
+				The CDH module deploys part of the Cloudera management stack, which
+				can then be used to deploy Cloudera's Hadoop distribution onto a
+				system.
+
+				Mike notes, "I know when I started four years ago it was, 'What's this
+				Hadoop thing? What do you mean a Java-based file system, what's
+				that?' It's been a great journey since then — things got very
+				popular very quickly, and Hadoop seems to be on everyone's mind
+				nowadays. It was a good way to add a skill set to my systems
+				administrator cap that lets me do quite a lot of cool things with
+				distributed clusters."
+				Mike's put a lot of work into this impressive module, and it's great to
+				hear him talk more about it. If you're interested in learning more
+				about provisioning Hadoop clusters with Cloudera Manager and Puppet,
+				this podcast's for you.
+				You can find all of Mike's modules on the Puppet Forge under
+				razorsedge.
+				You can also check our many other recent podcasts by visiting our
+				podcast page or subscribing in your favorite podcast tool.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/provisioning-hadoop-clusters-cloudera-manager-and-puppet</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode033-2014-05-05-Provisioning-Hadoop-Clusters-With-Cloudera-Manager-and-Puppet.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Getting Organized with Roles and Profiles | Puppet
+				Labs</title>
+			<description>
+				If you need a way to manage a large and complex infrastructure and
+				gather all the parts of your Puppet manifests together, then this
+				week’s podcast is for you!
+				Puppet Labs professional services engineer, James Sweeny, chats with
+				Puppet certified Linux engineer, Greg Swift, about how he’s using
+				the Roles and Profiles design model with much success at Rackspace.
+				Don’t miss the conversation full of aha moments between James and
+				Greg. (Even seasoned Puppet users will learn something new.)
+				Hear Greg explain:</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-getting-organized-roles-and-profiles</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode036-2014-06-04-Roles-and-Profiles.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Product Management | Puppet Labs</title>
+			<description>Ever wondered what a product manager does every day?
+				Then this podcast is for you. Kara Sowles and Meg Hartley from the
+				Puppet Labs community department and videographer Kent Bye sat down
+				with Lindsey Smith, product owner, and Susannah Axelrod, director of
+				product management, to learn how product management works generally,
+				and specifically at Puppet Labs.
+				Susannah sums up the role of the product manager as, “We take a lightning
+				strike and turn it into a more predictable machine.” Lindsey adds,
+				“We’re able to think of things holistically."
+				Susannah entered product management from the business and strategy side, and
+				chose the tech industry for its constant innovation, while Lindsey,
+				a self-taught software developer, took a more technical route.
+				Lindsey goes on to say, "There’s a wide variety of strengths you can
+				bring."
+				As Susannah and Lindsey share the many paths to becoming a product
+				manager, Susannah says, “One of the things that makes this job
+				interesting is it’s accommodating to a wide range of skill sets, and
+				you can find a place for yourself in that."
+
+				Lindsey says his role is to represent all the people not in the room. He
+				shares one of the many things that he’s found rewarding about
+				working at Puppet Labs: “Twice in the last few months we’ve been
+				able to talk to [kids in] computer science clubs about how software
+				gets made."
+				Product management is a growing field, and integral to the success of the
+				product as a company scales. As Susannah says, “We’re able to look
+				out over X months or years, and develop a road map and talk about
+				the cadence of release.”
+				Listen in to find out how Susannah and Lindsey go on to emphasize the ways
+				they do that at Puppet Labs, plus:</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-product-management</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode035-2014-05-28-Product-Management-at-Puppet-Labs.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Puppet for Windows Sysadmins | Puppet Labs</title>
+			<description>In the latest edition of the Puppet Podcast, you’ll get
+				the lowdown on tools and tips for Windows sysadmins using Puppet.
+				Erin Buckley, senior instructional designer at Puppet Labs, shares
+				the new online workshop courses she's been working on, which will
+				provide tools to help Windows users navigate the Linux environment
+				and shorten their Puppet ramp up time.
+				Travis Fields and Ryan Gard, senior software engineer and SQA engineer,
+				respectively at Puppet Labs, joined in to tell hosts Kara Sowles,
+				community manager, and Kent Bye, video content marketer, about their
+				past lives as Windows administrators. Travis and Ryan dispense
+				advice to Windows administrators interested in Puppet, including
+				helpful tools and resources to be aware of. We’ll discuss the best
+				ways for Windows admins without prior Unix experience to prepare for
+				Puppet Fundamentals training, and get started on their path to
+				Puppet mastery!
+				You can also check out our many other recent podcasts by visiting our
+				podcast page or subscribing in your favorite podcast tool.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-puppet-windows-sysadmins</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode037-2014-06-25-Getting-Started-with-Windows-and-Puppet.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: The Word on PuppetDB 2.1.0 From Our Developers |
+				Puppet Labs</title>
+			<description>Want the details on what's new in PuppetDB 2.1.0, just
+				released this week? Kara Sowles, community manager, and Kent Bye,
+				video content marketer, sat down with software developers Ken Barber
+				and Ryan Senior to chat about all of the new features in the 2.1.0
+				release of PuppetDB.
+				They’ve been hard at work on the new release and have lots to be excited
+				about. Hint: this release is chock full of benefits for users.
+				Ryan and Ken are especially excited about the query engine. "We've spent
+				a lot of time fixing inconsistencies and expanding the things you
+				can query," said Ryan. "From a maintenance perspective, it's a big
+				win for our developers, and from the functionality perspective, it's
+				a big win for PuppetDB users."
+				Tune in for all this, plus little-known facts such as how PuppetDB got
+				its name, and Spotify’s contributions to its development.
+				We’ll answer these questions:
+				Have a question or comment? Email us at podcast@puppetlabs.com.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-word-puppetdb-210-our-developers</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode038-2014-07-10-PuppetDB.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Docker &amp; Puppet: Uniting Containers with
+				Configuration Management | Puppet Labs</title>
+			<description>Last week was OSCON week in Portland - and with OSCON,
+				thousands of people from all over the world fly to our home city of
+				Portland, Oregon, to talk tech. We were fortunate to book some time
+				with the folks from Docker for a Puppet Podcast!
+				On this week's Puppet Podcast, we welcome Jérôme Petazzoni and Aaron
+				Huslage from Docker; Daniel Dreier, a local Puppet + Docker
+				community member here in Portland; and Kylo Ginsberg, a Platform
+				Engineer at Puppet Labs. As usual, Kara Sowles and Kent Bye from
+				Puppet Labs hosted the conversation.
+				Docker is an open source engine that runs and manages containers, which is
+				a Linux kernel feature for providing lightweight virtualization at
+				the operating system level. Containers are small, cheap, fast to
+				start, and are starting to unlock new use cases for how
+				infrastructure is architected.
+				Daniel talks to us about his work at his web hosting business, and the
+				three-step process that he’s using in order to separate and contain
+				the users on his shared hosting platform. He’s using r10k and puppet
+				apply command, in order to create a container with Puppet, and then
+				he’s using a YAML file in order to do specific configuration within
+				that container. Then, he’s deploying to CoreOS and storing secrets
+				within the etc.d file. He talks about his experiences with blending
+				Puppet configuration management with Docker containers, and what
+				works well and where there’s room for improvement.
+				Kylo addresses the intersection between Puppet and Docker, between
+				configuration management and containers. He covers different ways
+				people are using them together by either puppetizing Docker hosts,
+				authoring docker images using Puppet, or by running Puppet within
+				Docker containers in order to manage the state and configuration
+				over time.
+				Jerome and Aaron delve into some of the new use cases for containers that
+				they’re seeing, as well as the blurred boundaries between virtual
+				machines and containers and how exactly they fit together.
+				For more information on working with containers and configuration
+				management, be sure to sign up to listen to our Docker and Puppet
+				webinar discussion between Docker’s James Turnbull and Puppet Labs’
+				David Lutterkort &amp; Eric Shamow. They cover a number of more
+				specific code snippets for puppetizing Docker hosts with Gareth
+				Rushgrove’s Puppet module, authoring Docker images with Puppet
+				either with or without a Puppet Master, and finally how to run
+				Puppet within a container.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-docker-puppet-combining-containers-configuration-management</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode039-2014-07-30-Docker-Puppet.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Geppetto 4.2 – New and Improved | Puppet Labs</title>
+			<description>Have you used Geppetto? (Hint: it’s not Pinocchio’s
+				creator.) Listen in to the Geppetto 4.2 edition of the Puppet
+				Podcast to learn all about the latest release. Kent and Kara chat
+				with Thomas Hallgren, the Puppet Labs engineer responsible for much
+				of the work on 4.2.
+				Geppetto is an IDE, interactive development environment, tailor-made for
+				editing modules and Puppet manifests and publishing git modules from
+				the Puppet Forge. Thomas tells us more about IDE's and what makes
+				Geppetto superior to others.
+				Geppetto can test your code as you create it. ”Geppetto keeps things live
+				and runs builders to verify and link everything together and gives
+				warnings. With Geppetto, you’ll have a Puppet ‘lint’ tool that’s
+				running all the time and keeps a well defined model of everything
+				that you’re editing in the workspace." Thomas explains.
+				Thomas finds the documentation tool tips and code completion helpful in
+				this release. He illustrates the objectives for Geppetto 4.2,
+				including support for new module metadata attributes, the new text
+				based editor for metadata.json, improved module validation, and
+				more.
+				Listen to find out:
+				Send us your thoughts, ideas, questions: podcast@puppetlabs.com. (We
+				love reading them!)</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-geppetto-42-new-and-improved</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode040-2014-08-27-Geppetto.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Automating Cumulus Network Gear with Puppet | Puppet Labs</title>
+			<description>Welcome to another week of the Puppet Podcast! This
+				time, Kara Sowles and Kent Bye are joined by Sergey Sudakovich and
+				Meena Sankaran of Cumulus Networks, and Kris Amundson, Senior SysOps
+				Engineer at Puppet Labs. If you're into networking, listen in – this
+				podcast is for you!
+				Cumulus is doing some interesting things as they work to bring their own
+				flavor of Linux to packet pushers. The Open Network Install
+				Environment (ONIE) Project is the PXE equivalent for network devices
+				– the glue that couples a minimal boot environment and software
+				image management that gets bare ports to functional configured
+				elements as part of a Zero Touch Provisioning strategy. With Linux
+				on your networking gear, Puppet just got easier to begin managing
+				networks.
+				On this podcast, Sergey and Meena ask us to think about networking's
+				place in DevOps. "Start thinking of networking more like the server
+				industry adopts technology: where they could just buy a piece of
+				hardware, install an OS, and then automate everything. That's the
+				DevOps mentality and that's what we're trying to achieve with the
+				new model of operations."
+				Listen in to Cumulus's approach to the future of networking, as they
+				explore how much automation can be enabled on the networking side
+				and the importance of companies giving back to the community and to
+				the open source tools that they use.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/automating-cumulus-network-gear-puppet</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode041-2014-09-03-Cumulus-Networks.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: CERN and Puppet | Puppet Labs</title>
+			<description>Our most recent Puppet Podcast is thrilling: a rare
+				opportunity to talk with CERN about Puppet. Our special guest, Tim
+				Bell, runs the IT infrastructure group at CERN. He's joined by
+				Puppet Labs Platform Engineering Director Deepak Giridharagopal and
+				hosts Kara Sowles and Kent Bye for a long talk on CERN's two-year
+				infrastructure overhaul and what they're doing with Puppet.
+				CERN, the European Organization for Nuclear Research, was founded in 1954
+				as a research laboratory where scientists could gather for
+				fundamental research. Tim tells us, "The basic goal is to understand
+				the universe, how it works, and what it's made of. The aim is the
+				quest for knowledge."
+				The largest experiment they run is the Large Hadron Collider (LHC), the
+				largest piece of scientific equipment on the earth, which is "used
+				in order to recreate some of the conditions after the big bang and,
+				by doing so, understand the fundamental particles of which matter is
+				made." As you can imagine, these experiments are producing a massive
+				amount of data. How do they record, store, and analyze it? Listen in
+				to find out!
+				CERN records 35 petabytes per year of data, and employs an army of
+				servers trying to recognize patterns in the data. Tim talks to us
+				about their 2 year upgrade and how they've reconstructed, in 18
+				months, toolchains that previously took 10 years to prepare. We
+				learn how they use Puppet and OpenStack together, how they manage
+				their upgrades so that they're not disruptive, and how they have
+				12,000 hosts divided into over 100 host groups.
+				While Tim and his IT infrastructure group continue their work, the new
+				LHC is being cooled to temperatures colder than outer space, and
+				placed in a vacuum of ten times less pressure than on the moon.
+				Listen to our podcast to find out how they're preparing for the
+				petabytes of data it will produce!</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-cern-and-puppet</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode042-2014-09-05-CERN.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Most Valued Puppeteer Winners | Puppet Labs</title>
+			<description>Listen in to hear a special PuppetConf 2014 edition of
+				the Puppet Podcast featuring the winners of the first annual,
+				community-nominated Most Valued Puppeteer (MVP) Award. The winner
+				and finalists of the MVP award, Erik Dalén, system engineer at
+				Spotify, Tim Sharpe, sysadmin at GitHub, and Daniele Sluijters,
+				Puppetboard module author, join Kara Sowles, Puppet Labs’ community
+				manager, and Kent Bye, Puppet Labs’ video content marketer, to chat
+				about their contributions to the community. Felix Frank, one of the
+				finalists, was not at PuppetConf, so, unfortunately, could not be on
+				the podcast.
+				The voting for the award happened at the Contributor Summit by
+				community members. The winner and three finalists were announced by
+				Luke Kanies, Founder and CEO of Puppet Labs, during his keynote at
+				PuppetConf 2014.
+				The MVP award winner, Erik Dalén, wrote puppet-dbquery and
+				puppet-explorer. Learn why he wrote them for his purposes at Spotify
+				and how he regularly fixes bugs, specifically to Facter, Puppet core
+				code, and PuppetDB. You’ll hear how Tim has used PuppetDB Query to
+				make his job easier at GitHub and why Daenney says, “Integrating
+				PuppetDB query support into Puppetboard has made it a lot easier to
+				work with and query.”
+				Tim Sharpe tells us all about the puppet-lint and rspec-puppet tools
+				that he wrote. At the Contributor Summit, Mike Stahnke told the
+				audience, “If you’re not running Puppet using the puppet-lint module
+				then your stuff is not as good as it would otherwise be.” Find out
+				how Daenney and Erik have used the Tim’s puppet-lint tool and why
+				Daenney says, “I’d go insane and be throwing myself off a building
+				without rspec-puppet.”
+				Find out how Felix Frank became known as the one of the top contributors
+				of all time in the puppet-user mailing list. “He has fixed a lot of
+				long standing bugs,” says Erik. Listen in to find out which ones.
+				Danielle (Daenney) Sluijters, tells us why he wrote the puppetboard
+				module and what it can do for your infrastructure, about his work on
+				the puppet-apt module and what he learned at PuppetConf from our
+				community about his contributions.
+				Want to know what our three contributors thought of the second
+				Contributor Summit held at PuppetConf? Listen in to find out!
+				We have lots of upcoming opportunities for you to contribute to the
+				community and learn from others in person and online. #puppethack,
+				our online community hack day, happens December 4th with a wide
+				range of hours to reflect the variety of time zones that our
+				community calls home. We also have our Puppet Contributor Summit EU
+				in Ghent, Belgium on Feb 4, 2015. We hope to see you at one or both
+				of these events or at an upcoming Puppet Camp!
+				Have suggestions for future podcasts, questions or comments? Email us:
+				podcast@puppetlabs.com.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-most-valued-puppeteerwinners</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode043-2014-10-10-Puppet-Most-Valuable-Puppeteer.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Node Manager | Puppet Labs</title>
+			<description>This week on the Puppet Podcast, Kara and Kent are
+				joined by Dan Lidral-Porter and Justin Holguin, engineers at Puppet
+				Labs, to talk about the Puppet Node Manager. We've been excited
+				about the Puppet Node Manager since before Dan stood onstage during
+				Luke Kanies' PuppetConf Keynote and demo'd it, so we're thrilled to
+				have him on the Puppet Podcast to tell you about it. In this podcast
+				Dan and Justin dive into how Node Manager simplifies managing a
+				large number of frequently changing systems while using Puppet
+				Enterprise.
+				Puppet Node Manager is the first of the new Puppet Apps. With Puppet Node
+				Manager, you can write rules based on the attributes of a node, and
+				the rules will determine what that node should look like. You can
+				manage your infrastructure based on each node's job, rather than
+				name, without needing to manually classify each node.
+				Dan and Justin go in-depth on how to troubleshoot and resolve node
+				conflicts when using node manager, and reveal where the tool is
+				headed next. If you haven't tried out Puppet Node Manager, we hope
+				this inspires you to give it a try!</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-node-manager</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode044-2014-11-25-Puppet-Node-Manager.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Puppet Server | Puppet Labs</title>
+			<description>In this edition of the Puppet podcast, hosts, Kara
+				Sowles and Kent Bye, interview Chris Price, one of the primary
+				engineers working on Puppet Server here at Puppet Labs. We had a
+				compelling conversation discussing the many aspects of Puppet Server
+				that came out in the 3.7 Puppet Enterprise release, including how
+				it's built on Trapperkeeper and why they chose to write it in
+				Clojure.
+				Puppet Server started out as weekend coding stints for Chris, and grew
+				into a next generation replacement for the Puppet Master. Chris had
+				the opportunity to demo Puppet Server during Puppet Labs CEO and
+				Founder, Luke Kanies’ keynote at PuppetConf this September. He said,
+				“It was one of the more interesting experiences that I’ve had in a
+				long time.” Listen in to find out why!
+				Chris tells us about Trapperkeeper (hint: It’s not a binder from the
+				‘80’s) and how they decided to build it: “We spent a lot of time
+				looking at things that exist already and found our needs were much
+				simpler and felt we could write something in Clojure that would
+				provide a better end user experience.” Get the goods on what
+				Trapperkeeper makes available for Puppet Server, PuppetDB and other
+				PE features like RBAC and node classification.
+				Chris gave us so much great information. You’ll need to listen to find
+				out the rest, including answers to the following:
+				Are you intrigued? Chris welcomes suggestions and bug reports from the
+				community. Also, feel free to find him on FreeNode under cprice404.
+				If you enjoyed this podcast, you should check out our podcast page
+				for more great discussions, or subscribe in your favorite podcast
+				tool.
+				Don’t forget to email us at podcasts@puppetlabs.com - we’d love to hear
+				about future podcasts that you want to hear and any questions or
+				concerns you have.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-puppet-server</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode045-2014-12-02-Puppet-Server.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Test-Driven Development | Puppet Labs</title>
+			<description>In this edition of the Puppet Podcast, hosts Kara and
+				Kent sat down with Gareth Rushgrove, Puppet Labs software engineer,
+				to talk about Test Driven Development (TDD). This podcast is
+				especially helpful to those who are new to TDD: the process of
+				writing tests first, then writing enough code to pass the test and
+				finally refactoring the code to make it better.
+				Gareth shares how he uses Test Driven Development and why he’s found it a
+				compelling way to write code. He says, “Tests help you move quickly
+				and not break functionality.” He encourages those new to TDD to jump
+				in and write their first test. He explains,“Writing the first test
+				is the hardest, but once you’ve gotten one test in, you can
+				replicate that to different modules very easily.”
+				Gareth recommends reading the code of modules that have test suites, such
+				as garethr-docker and other Puppet Approved modules and to join the
+				puppet-users mailing list if you’re just starting out writing tests.
+				Be sure to check out the Learn More section below for even more
+				resources.
+				Want to know which tests to write, which tools and frameworks he
+				recommends for different testing situations, how to get started with
+				TDD, and more? Listen in!
+				If you enjoyed this podcast, you should check out our podcast page for
+				more great discussions, or subscribe in your favorite podcast tool.
+				Don’t forget to email us at podcasts@puppetlabs.com - we’d love to
+				hear about future podcasts ideas or questions you have.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-test-driven-development</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode046-2014-12-15-Test-Driven-Development.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: Automated Testing with Beaker for Windows | Puppet
+				Labs</title>
+			<description>In this edition of the Puppet Podcast, Kara and Kent sat
+				down with Liam Bennett, infrastructure engineer at OpenTable, Alice
+				Nodelman, Puppet Labs QE toolsmith responsible for Beaker, and Rob
+				Reynolds, Puppet Labs software engineer and creator of Chocolatey to
+				chat about acceptance testing with Beaker for Windows.
+				Liam works heavily on Windows machines at OpenTable and he was using and
+				contributing to rspec-puppet to make it compatible for Windows.
+				After learning about Beaker on Twitter, he translated that work over
+				to Beaker. Liam’s PowerShell work is already a part of Beaker, and
+				more Windows native support will be landed in future releases of
+				Beaker.
+				Listen in to hear Liam, Alice and Rob discuss the limitations with testing
+				Puppet on Windows, upcoming changes to Beaker, other ways of using
+				Beaker and more.
+				For those running tests on Beaker in a Windows environment, check out
+				Liam’s three-part blog series on acceptance testing at OpenTable:
+				Part 1: Configuring and Writing Tests;
+				Part 2: The Story of How They Started Acceptance Testing on Windows;
+				Part 3: How to use Beaker to test Puppet roles and profiles for both
+				Linux and Windows.
+				Get in touch with Liam on GitHub and@liamjbennett on Twitter.
+				If you enjoyed this podcast, you should check out our podcast page for
+				more great discussions, or subscribe in your favorite podcast tool.
+				Don’t forget to email us at podcast@puppetlabs.com - we’d love to
+				hear about future podcasts ideas or questions you have.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-automated-testing-beaker-windows</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode047-2014-12-16-Windows-Acceptance-Testing-with-Beaker.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+		<item>
+			<title>Podcast: How to Contribute to the Puppet Core | Puppet Labs</title>
+			<description>In this edition of the Puppet podcast, Kara and Kent sat
+				down with Felix Frank, Puppet power user and systems engineer, and
+				Josh Partlow, Puppet Labs software engineer, to chat about
+				contributing to the Puppet core projects — primarily Puppet, Facter
+				and Hiera. Felix is one of the top contributors of all time to the
+				Puppet mailing lists and a Featured Community Member.
+				Felix got started contributing to the Puppet Core projects by writing the
+				first couple of Puppet patches for his employer. For folks new to
+				contributing to Puppet core projects, Felix suggests, “For me, the
+				best thing to start with was Puppet types and providers. It’s work
+				that is quite obvious and palpable and straight-forward. You can get
+				results fairly quickly.”
+				Josh agrees that the Puppet types and providers extension is the best
+				way to get started and what he sees mostly from the community. They
+				go on to outline the entire process of contributing to the Puppet
+				Core, including the most important and difficult pieces.
+				Keep listening to hear Felix and Josh talk about how to write tests for
+				your patches. Josh says,”Don’t be afraid to ask for help.” He goes
+				on to give advice on the best ways to get that help.
+				Felix talks about his new book, Puppet Essentials which he created for
+				folks who are used to writing software or operating servers and want
+				to get started using Puppet quickly. He goes on to talk about how it
+				can help you ramp up on Puppet, how his book came to fruition and
+				his stint in blogging.
+				Find Felix on GitHub and check out his blog. Follow him on Twitter
+				@felis_rex.
+				If you enjoyed this podcast, you should check out our podcast page for
+				more great discussions, or subscribe in your favorite podcast tool.
+				Don’t forget to email us at podcast@puppetlabs.com — we’d love to
+				hear about future podcasts ideas or questions you have.</description>
+			<guid isPermaLink="false">http://puppetlabs.com/podcasts/podcast-how-contribute-puppet-core</guid>
+			<enclosure
+				url="http://puppetcast.s3.amazonaws.com/puppetcast-episode048-2014-12-23-Contributing-to-Puppet.mp3"
+				length="0" type="audio/mpeg" />
+		</item>
+	</channel>
+</rss>
