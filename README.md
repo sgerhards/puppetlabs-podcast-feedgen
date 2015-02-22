@@ -1,1 +1,2 @@
 # puppetlabs-podcast-feedgen
+This generates a RSS-feed of all podcasts currently available on [Puppet Labs](http://puppetlabs.com/resources/podcasts "Puppet Labs podcasts") and not only the ten most recent available on [Feedburner](http://feeds.feedburner.com/PuppetLabsPodcast "PuppetLabsPodcast").
